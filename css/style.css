@@ -15,6 +15,21 @@ header nav {
   width: 160px;
 }
 
+main img:hover {
+  animation: scale 50ms ease forwards;
+  border-radius: 8px;
+  border: 1px solid white;
+}
+
+@keyframes scale {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 1.5;
+  }
+}
+
 footer a {
   cursor: pointer;
 }
