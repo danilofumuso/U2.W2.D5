@@ -25,11 +25,76 @@
       </nav>
     </header>
     <main>
-      <div class="container w-25 mt-5">
-        <h1 class="display-1 fw-normal text-white">Edit Profile</h1>
+      <div class="container mt-5">
         <div class="row">
-          <div class="col"></div>
-          <div class="col"></div>
+          <div class="col-12 col-lg-9 mx-auto">
+            <h1 class="display-1 fw-normal text-white">Edit Profile</h1>
+            <hr class="text-secondary mb-4" />
+            <div class="row text-white">
+              <div class="d-none d-sm-inline-block col-sm-3">
+                <div class="avatar">
+                  <a href="#"><img class="w-100" src="./Netflix-assets/assets/avatar.png" alt="user avatar" /></a>
+                  <div class="d-inline-block px-2 py-1 bg-black rounded-circle border border-white">
+                    <i class="bi bi-pencil"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-11 col-sm-9">
+                <div>
+                  <h2 class="userName fs-2 w-75">Danilo Fumuso</h2>
+                  <p class="fs-3 mt-4 mb-1">Language:</p>
+                  <div class="dropdown">
+                    <button
+                      class="pe-4 py-0 mb-4 fs-5 btn bg-black text-white border-white rounded-0 dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      English
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Italian</a></li>
+                      <li><a class="dropdown-item" href="#">French</a></li>
+                      <li><a class="dropdown-item" href="#">Spanish</a></li>
+                      <li><a class="dropdown-item" href="#">...</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <hr class="text-secondary w-75" />
+                <div>
+                  <p class="fs-3">Maturity Settings:</p>
+                  <button class="maturity fs-5">ALL MATURITY RATINGS</button>
+                  <p class="fs-5 mb-4">Show titles of all maturity ratings for this profile.</p>
+                  <button class="outlined-button bg-transparent fs-5 mb-4">EDIT</button>
+                </div>
+                <hr class="text-secondary w-75 d-none d-md-block" />
+                <div class="d-none d-md-block">
+                  <p class="fs-3 mt-4">Autoplay controls</p>
+                  <div class="form-check">
+                    <input class="form-check-input border-secondary bg-transparent p-4 rounded-0" type="checkbox" value="" />
+                    <label class="form-check-label ms-2 mt-2 fs-5" for="defaultCheck1"> Autoplay next episode in a series on all devices. </label>
+                  </div>
+                  <div class="form-check mt-4 mb-5">
+                    <input class="form-check-input border-secondary bg-transparent p-4 rounded-0" type="checkbox" value="" />
+                    <label class="form-check-label ms-2 mt-2 fs-5" for="defaultCheck1"> Autoplay previews while browsing on all devices. </label>
+                  </div>
+                </div>
+              </div>
+              <hr class="text-secondary mb-4" />
+              <div>
+                <button class="bg-white border-0 fw-medium px-4 py-2 fs-5 mb-4 me-3">
+                  <a class="link-dark link-underline link-underline-opacity-0" href="./index.html">SAVE</a>
+                </button>
+                <button class="outlined-button bg-transparent fw-medium px-4 py-2 fs-5 mb-4 me-3">
+                  <a class="link-secondary link-underline link-underline-opacity-0" href="./index.html">CANCEL</a>
+                </button>
+                <button class="outlined-button bg-transparent fw-medium px-4 py-2 fs-5 mb-4 me-3">
+                  <a class="link-secondary link-underline link-underline-opacity-0" href="https://www.netflix.com/it/">DELETE PROFILE</a>
+                </button>
+                <!-- con i buttons SAVE e CANCEL si torna alla home, con il button DELETE ACCOUNT si va alla pagina di Netflix.com -->
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>

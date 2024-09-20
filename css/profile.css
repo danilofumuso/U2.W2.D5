@@ -12,3 +12,37 @@ header nav {
 .logo {
   width: 160px;
 }
+
+.avatar {
+  position: relative;
+}
+
+.avatar > div {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.userName {
+  background-color: #666666;
+  padding-left: 1rem;
+  padding-block: 0.25rem;
+  width: 75%;
+}
+
+.maturity {
+  background-color: #333333;
+  color: white;
+  border: none;
+  padding-block: 0.25rem;
+  padding-inline: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.outlined-button {
+  color: #666666;
+  border: 1px solid #666666;
+  padding-block: 0.25rem;
+  padding-inline: 2rem;
+  letter-spacing: 3px;
+}
