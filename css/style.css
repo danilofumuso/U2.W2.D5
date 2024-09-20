@@ -1,0 +1,20 @@
+body {
+  background-color: #141414;
+  margin-inline: 2rem;
+  padding-top: 100px;
+  /* non capivo perché sticky-top non permetteva lo scroll della navbar (qualcosa di strano in bootstrap),
+   così ho dato fixed-top alla nav e un padding top al body per non coprire il contenuto sotto la nav */
+}
+
+header nav {
+  background-color: #141414;
+  margin-inline: 2rem;
+}
+
+.logo {
+  width: 160px;
+}
+
+footer a {
+  cursor: pointer;
+}

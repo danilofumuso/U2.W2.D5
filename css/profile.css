@@ -1,0 +1,14 @@
+body {
+  background-color: #141414;
+  margin-inline: 2rem;
+  padding-top: 100px;
+}
+
+header nav {
+  background-color: #141414;
+  margin-inline: 2rem;
+}
+
+.logo {
+  width: 160px;
+}
